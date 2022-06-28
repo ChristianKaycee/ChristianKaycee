@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bubbles Animation </title>
+<style>
+
+body {
+    margin: 0;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+input {
+    width: 50vw;
+    position: absolute;
+    bottom: 10px;
+    left: 20vw;
+}
+</style>
+<script>
+
+window.onload = function() {
+
+var W = window.innerWidth;
+var H = window.innerHeight;
+var R = Math.min(W, H) / 2;
+
+var canvas = document.querySelector('canvas');
+canvas.width = W;
+canvas.height = H;
+
+var ctx = canvas.getContext('2d');
+ctx.fillStyle = 'rgba(0,0,0,0.1)';
+ctx.strokeStyle = 'skyblue';
+
+var input = document.querySelector('input');
+
+var bubbles = [];
+var amount = 201;
+
+function addBubble(angle) {
+    bubbles.push({ a:angle, r:0 });
+}
+
+for(var i = 0; i < amount; i++)
+    addBubble(i/amount * 2*Math.PI);
+
+function updateBubble(bubble) {
+    bubble.a += Math.PI/20 / 60 *
+        (1+Math.sin(Date.now()/1000))/2;
+    bubble.r = Math.sin(bubble.r/R +
+        bubble.a*input.value)*(R-50);
+}
+
+function drawBubble(bubble) {
+    var x = W/2 + Math.cos(bubble.a)*bubble.r;
+    var y = H/2 + Math.sin(bubble.a)*bubble.r;
+    var r = Math.abs(bubble.r/R);
+    r = 40*r*r*r;
+    
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, 2*Math.PI);
+    ctx.stroke();
+}
+
+function animate() {
+    window.requestAnimationFrame(animate);
+    
+    bubbles.map(updateBubble);
+    
+    ctx.fillRect(0, 0, W, H);
+    bubbles.map(drawBubble);
+}
+
+animate();
+
+}
+</script>
+    </head>
+    <body>
+        <canvas></canvas>    
+        <input type="range" min="1" max="40" value="29">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+<footer style="background:#D63F22;height:80px;color:white;text-align:center;">Copyright © 2020 Kaycee International. All rights reserved.</footer>
+    </body>
+</html>
