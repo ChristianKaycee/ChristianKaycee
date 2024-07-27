@@ -14,11 +14,11 @@
     <img src="https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagra
        Badge"/>
   </a>
-  <a href="https://m.facebook.com/kayceee.christian//">
+  <a href="https://m.facebook.com/kayceee.christian/">
     <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook
        Badge"/>
   </a>
-    <a href="https://m.facebook.com/kayceee.christian//">
+    <a href="https://wa.me/message/75AQBKS6MMUHH1/">
     <img src="https://img.shields.io/badge/whatsapp-green?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Whatsapp
        Badge"/>
   </a>
