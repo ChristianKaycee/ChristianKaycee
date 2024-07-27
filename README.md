@@ -34,13 +34,11 @@
   </a>
 </div>
 
-  <code>A passionate frontend developer from Rivers,Nigeria</code>
+  <code>:telescope: A passionate frontend developer from Rivers,Nigeria</code>
 ---
 <div align="left">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
-
-- :telescope: I’m a frontend web developer.
 
 - :seedling: Improving my problem solving skill.
 
