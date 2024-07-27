@@ -28,7 +28,7 @@
   </a>
 </div>
 <h1 align="center">
-  Konnichiwa minna, I'm Kingdavid Christian
+  Konnichiwa minna, I'm King.
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 <div align="left">
