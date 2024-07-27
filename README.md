@@ -1,5 +1,8 @@
-    -- Made with 💌
-         -- By KingShow
+<h1 align="center">
+  Konnichiwa minna, I'm King.
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>
+
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
@@ -30,11 +33,9 @@
        Badge"/>
   </a>
 </div>
-<h1 align="center">
-  Konnichiwa minna, I'm King.
-  <code>A passionate frontend developer from seattle,WA</code>
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
+
+  <code>A passionate frontend developer from Rivers,Nigeria</code>
+---
 <div align="left">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
@@ -61,11 +62,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=christiankaycee)](https://github.com/anuraghazra/github-readme-stats)
 ---
-### :writing_hand: Blog Posts :
----
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-<!---
+    -- Made with 💌
+         -- By KingShow
 ChristianKaycee/ChristianKaycee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
